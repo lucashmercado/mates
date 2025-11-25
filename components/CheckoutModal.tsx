@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Smartphone, CheckCircle, Wallet, Banknote } from 'lucide-react';
-import { CartItem, CheckoutDetails, PaymentMethod } from '../types';
+import { CartItem, CheckoutDetails } from '../types';
 import { SELLER_PHONE_NUMBER } from '../constants';
 
 interface CheckoutModalProps {
